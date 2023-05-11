@@ -8,10 +8,11 @@ let box = document.getElementById('box');
 
 function changeColor(){
     
-    let ranNum= Math.floor(Math.random() * 10);
-
+    let ranNum= Math.floor(Math.random() * 25);
+    
     if(ranNum<arrColors.length){
         color.innerText= arrColors[ranNum];
+
     }
 
     box.style.background= arrColors[ranNum]
